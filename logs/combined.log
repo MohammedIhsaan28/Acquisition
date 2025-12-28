@@ -23,3 +23,370 @@
 {"level":"info","message":"Created new user: absal@gmail.com","service":"aquisition-api"}
 {"level":"info","message":"User signed up: absal@gmail.com (absal, role: user)","service":"aquisition-api"}
 {"level":"info","message":"::1 - - [28/Dec/2025:11:50:26 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 100 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"User authenticated: absal@gmail.com","service":"aquisition-api"}
+{"level":"info","message":"User signed in: absal@gmail.com (absal, role: user)","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:12:30:51 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"User signed out","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:12:52:47 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:43:04 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:43:08 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:43:54 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:44:28 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","method":"GET","path":"/health","role":"guest","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:46:25 +0000] \"GET /health HTTP/1.1\" 403 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"Hello from aquisition","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:47:47 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:47:53 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:48:02 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:48:17 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:48:25 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:48:32 +0000] \"POST /api HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:48:40 +0000] \"POST /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:49:39 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:49:42 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:49:45 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:49:52 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:50:07 +0000] \"GET /api/ HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:50:16 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:50:50 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:53:33 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:53:35 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:53:36 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:53:36 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:53:37 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:53:40 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:53:42 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:53:42 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:53:43 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:53:45 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:13:57:25 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"Hello from aquisition","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:00:17 +0000] \"GET / HTTP/1.1\" 200 13 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:00:25 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:00:31 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"level":"info","message":"Hello from aquisition","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:02:48 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:02:53 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:19 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:27 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:28 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:29 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:29 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:30 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:31 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:36 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:37 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:37 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:38 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:39 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:40 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:41 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:41 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:42 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:43 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:03:59 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:11 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:12 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:16 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:17 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:17 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:18 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:19 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:19 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:20 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:21 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:22 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:22 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:23 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:24 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:24 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:25 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:26 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:26 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:27 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:28 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:28 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:29 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:30 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:30 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:31 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:33 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:34 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:35 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"Hello from aquisition","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:49 +0000] \"GET / HTTP/1.1\" 200 13 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"Hello from aquisition","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:04:51 +0000] \"GET / HTTP/1.1\" 200 13 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","role":"guest","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:05:33 +0000] \"GET / HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","role":"guest","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:05:39 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/sign-in","role":"guest","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:05:49 +0000] \"GET /sign-in HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:06:06 +0000] \"GET /sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:06:34 +0000] \"GET /sign-in HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:06:53 +0000] \"GET /sign-in HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:06:56 +0000] \"GET /sign-in HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:07:04 +0000] \"GET /sign-in HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:07:30 +0000] \"GET /sign-up HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:07:32 +0000] \"GET /sign-up HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:08:01 +0000] \"GET /sign-up HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:08:26 +0000] \"GET /sign-out HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:08:41 +0000] \"GET /sign-in HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:09:36 +0000] \"GET /sign-in HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:09:41 +0000] \"GET /sign-in HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:10:30 +0000] \"GET /sign-in HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"Hello from aquisition","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:10:59 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:11:12 +0000] \"POST /sign-in HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:11:16 +0000] \"POST /sign-in HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:11:17 +0000] \"POST /sign-in HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"User authenticated: absal@gmail.com","service":"aquisition-api"}
+{"level":"info","message":"User signed in: absal@gmail.com (absal, role: user)","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:11:57 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-in","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:12:25 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"User authenticated: absal@gmail.com","service":"aquisition-api"}
+{"level":"info","message":"User signed in: absal@gmail.com (absal, role: user)","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:12:42 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"User authenticated: absal@gmail.com","service":"aquisition-api"}
+{"level":"info","message":"User signed in: absal@gmail.com (absal, role: user)","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:12:47 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"User signed out","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:12:54 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"User signed out","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:23 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:33 +0000] \"POST /health HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:46 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:25:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:26:10 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:53:39 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:53:42 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:53:47 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Shield blocked request","method":"GET","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:54:23 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:54:51 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:54:54 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:17 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:30 +0000] \"GET /health HTTP/1.1\" 429 59 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:31 +0000] \"GET /health HTTP/1.1\" 429 59 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:33 +0000] \"GET /health HTTP/1.1\" 429 59 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:41 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:43 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:45 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:46 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:47 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:47 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:48 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:49 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:49 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:50 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:55:51 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:14:56:42 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:00:09 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:00:25 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:00:34 +0000] \"GET /api/auth HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"User authenticated: absal@gmail.com","service":"aquisition-api"}
+{"level":"info","message":"User signed in: absal@gmail.com (absal, role: user)","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:00:52 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"User authenticated: ihsaan@gmail.com","service":"aquisition-api"}
+{"level":"info","message":"User signed in: ihsaan@gmail.com (ihsaan, role: admin)","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:01:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 102 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:01:25 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:01:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:01:54 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:04:14 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:04:23 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:04:29 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:17:36 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:17:37 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:17:39 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:18:07 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:18:09 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:19:01 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:19:04 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:19:12 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:09 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:13 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:20 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:21 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:21 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:22 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:23 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:23 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:24 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:25 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:26 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:27 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:27 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:28 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:34 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:35 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:35 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:36 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:37 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:44 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:48 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:49 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:49 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:50 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:51 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:51 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:52 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:52 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:53 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:54 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:54 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:55 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:56 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:56 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:57 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:58 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:58 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:59 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:20:59 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:21:00 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:21:01 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:21:01 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:21:02 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:21:03 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:21:03 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:21:04 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:22:29 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisition-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:22:55 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:12 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:13 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:14 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:14 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:15 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:15 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:15 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:15 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:15 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:15 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:16 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:16 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:16 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:16 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:17 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:17 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:17 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:17 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:19 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:19 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:19 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:19 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:23 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"level":"info","message":"Hello from aquisition","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:35 +0000] \"GET / HTTP/1.1\" 200 13 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:42 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:46 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:47 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:51 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:53 +0000] \"GET /health HTTP/1.1\" 429 59 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:54 +0000] \"GET /health HTTP/1.1\" 429 59 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:55 +0000] \"GET /health HTTP/1.1\" 429 59 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:55 +0000] \"GET /health HTTP/1.1\" 429 59 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:23:56 +0000] \"GET /health HTTP/1.1\" 429 59 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"aquisition-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [28/Dec/2025:15:24:04 +0000] \"GET /health HTTP/1.1\" 429 59 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"aquisition-api"}

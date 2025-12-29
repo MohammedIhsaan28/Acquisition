@@ -24,7 +24,7 @@ app.get('/health',(req,res)=>{
   res.status(200).json({ status: 'OK',timestamp: new Date().toISOString(),uptime: process.uptime() });
 });
 app.get('/api',(req,res)=>{
-  res.status(200).json({ message: 'Acquisition API is Running!'});
+  res.status(200).json({ message: 'cquisition API is Running!'});
 });
 
 app.use('/api/auth', authRoutes);

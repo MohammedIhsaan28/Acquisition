@@ -5,6 +5,7 @@
 - Dev uses **Neon Local** (Docker) + app via `docker-compose.dev.yml`.
 - Prod uses real **Neon Cloud** URL via env var with `docker-compose.prod.yml`.
 - App reads `DATABASE_URL` (see `src/config/database.js`).
+- Testing CI/CD pipelines 
 
 ## Files
 

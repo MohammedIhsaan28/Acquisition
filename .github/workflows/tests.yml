@@ -1,0 +1,63 @@
+name: Tests
+
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+    branches: [main, staging]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    env:
+      NODE_ENV: test
+      NODE_OPTIONS: --experimental-vm-modules
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        id: run-tests
+        run: npm test
+
+      - name: Upload coverage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: coverage
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Tests summary
+        if: always()
+        run: |
+          {
+            echo "## Tests";
+            echo "- Status: ${{ job.status }}";
+            if [ -f coverage/lcov.info ]; then
+              echo "- Coverage report generated (coverage/lcov.info).";
+            else
+              echo "- Coverage report not found.";
+            fi;
+          } >> $GITHUB_STEP_SUMMARY
+
+      - name: Annotate failures
+        if: failure()
+        run: |
+          echo "::error title=Tests failed::Jest tests failed. Check logs above. Run npm test locally." \
+            && {
+              echo "## Tests failed"; \
+              echo "- See logs for details."; \
+              echo "- Re-run locally with npm test."; \
+            } >> $GITHUB_STEP_SUMMARY

@@ -99,4 +99,3 @@ export const signout = async (req, res, next) => {
     next(e);
   }
 };
-

@@ -9,7 +9,7 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: docker.io/${{ secrets.DOCKER_USERNAME }}/acquisition
+      IMAGE_NAME: docker.io/${{ secrets.DOCKER_USERNAME }}/acquisition-app
     steps:
       - name: Checkout
         uses: actions/checkout@v4

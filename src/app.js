@@ -5,6 +5,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import authRoutes from '#routes/auth.routes.js';
+import usersRoutes from '#routes/users.routes.js';
 import  securityMiddleware  from '#middleware/security.middleware.js';
 
 const app = express();
@@ -24,9 +25,16 @@ app.get('/health',(req,res)=>{
   res.status(200).json({ status: 'OK',timestamp: new Date().toISOString(),uptime: process.uptime() });
 });
 app.get('/api',(req,res)=>{
-  res.status(200).json({ message: 'cquisition API is Running!'});
+  res.status(200).json({ message: 'Acquisition API is Running!'});
 });
 
 app.use('/api/auth', authRoutes);
+app.use('/api/users',usersRoutes);
+
+app.use((req,res)=>{
+  res.status(404).json({
+    error: 'Route Not Found',
+  });
+});
 
 export default app;
